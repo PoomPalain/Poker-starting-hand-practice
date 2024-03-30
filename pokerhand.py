@@ -44,7 +44,7 @@ def main():
             break
 
         actual_category = evaluate_hand(f"{card1}-{card2}")
-        if guess in ['o', 'w', 'm', 'lg', 'l']:
+        if guess in ['p', 'f', 'r', 'l']:
             if guess == actual_category:
                 print("Correct!")
                 correct_guesses += 1
